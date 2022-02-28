@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CourseCollectionViewCell" customModule="Channels" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="381"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="381"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ybc-LC-mSj">
+                        <rect key="frame" x="10" y="238" width="162" height="133"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Cure For Loneliness" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ia2-wa-Xm0">
+                                <rect key="frame" x="0.0" y="0.0" width="111" height="65"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mindvalley Mentoring" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-xW-16F">
+                                <rect key="frame" x="0.0" y="68" width="124.5" height="65"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="13"/>
+                                <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HDN-4y-3BV">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="228"/>
+                        <color key="backgroundColor" name="CategoryCellColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="182" id="O9r-0R-k0W"/>
+                            <constraint firstAttribute="height" constant="228" id="RBY-aw-HJJ"/>
+                        </constraints>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaC-Do-ikd">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="228"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="I9w-a1-xYP">
+                            <rect key="frame" x="0.0" y="0.0" width="182" height="228"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="228" id="cog-Cm-pbd"/>
+                        </constraints>
+                        <blurEffect style="dark"/>
+                    </visualEffectView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lsw-VM-LAh" userLabel="ShadowView">
+                        <rect key="frame" x="10" y="10" width="162" height="203"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="203" id="iWK-BH-g1i"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6s4-Nz-HEb">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="228"/>
+                        <color key="backgroundColor" name="CategoryCellColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="182" id="gE0-uM-usz"/>
+                            <constraint firstAttribute="height" constant="228" id="w9I-gG-6Up"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2VK-Wd-F35">
+                        <rect key="frame" x="10" y="10" width="162" height="203"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="203" id="0qo-LX-KTW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" name="AppBackroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Lsw-VM-LAh" secondAttribute="trailing" constant="10" id="38x-bG-Gqw"/>
+                <constraint firstItem="HDN-4y-3BV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3VQ-1V-zgd"/>
+                <constraint firstItem="Ybc-LC-mSj" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="10" id="65V-Jj-jeN"/>
+                <constraint firstItem="Lsw-VM-LAh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="DOy-3d-7h3"/>
+                <constraint firstAttribute="trailing" secondItem="aaC-Do-ikd" secondAttribute="trailing" id="DYC-ia-llB"/>
+                <constraint firstItem="6s4-Nz-HEb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fim-eQ-xJr"/>
+                <constraint firstItem="HDN-4y-3BV" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="MsF-7s-OWe"/>
+                <constraint firstItem="6s4-Nz-HEb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Zkf-RX-tqt"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="Ybc-LC-mSj" secondAttribute="trailing" constant="10" id="dsN-au-WOi"/>
+                <constraint firstItem="Lsw-VM-LAh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="eQ4-VM-r6N"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="Ybc-LC-mSj" secondAttribute="bottom" constant="10" id="f9K-IY-qsQ"/>
+                <constraint firstItem="aaC-Do-ikd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ftG-yy-hGt"/>
+                <constraint firstItem="aaC-Do-ikd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hnU-xf-DAD"/>
+                <constraint firstItem="2VK-Wd-F35" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="iPd-Ld-mnG"/>
+                <constraint firstItem="2VK-Wd-F35" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="jNc-nV-eib"/>
+                <constraint firstAttribute="trailing" secondItem="2VK-Wd-F35" secondAttribute="trailing" constant="10" id="oq3-XX-tZj"/>
+                <constraint firstItem="Ybc-LC-mSj" firstAttribute="top" secondItem="HDN-4y-3BV" secondAttribute="bottom" constant="10" id="wpy-0a-aKo"/>
+                <constraint firstItem="Lsw-VM-LAh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="xyG-0q-XDs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="blurredCourseImageView" destination="HDN-4y-3BV" id="lLx-a0-3E4"/>
+                <outlet property="courseImageView" destination="6s4-Nz-HEb" id="1Yl-eG-Gfk"/>
+                <outlet property="courseTitleLabel" destination="ia2-wa-Xm0" id="Yhb-4m-tuV"/>
+                <outlet property="maskImageView" destination="2VK-Wd-F35" id="qNl-T0-bU3"/>
+                <outlet property="shadowView" destination="Lsw-VM-LAh" id="Pne-sw-nJc"/>
+                <outlet property="subdetailsLabel" destination="aaz-xW-16F" id="Ly7-CI-F5K"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="129.57589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppBackroundColor">
+            <color red="0.13725490196078433" green="0.15294117647058825" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CategoryCellColor">
+            <color red="0.58823529411764708" green="0.58823529411764708" blue="0.61568627450980395" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
